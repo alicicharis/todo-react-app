@@ -1,0 +1,25 @@
+.button {
+  font-family: monospace;
+  cursor: pointer;
+  outline: 0;
+  color: #fff;
+  background-color: black;
+  border-color: #0d6efd;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  padding: 6px 12px;
+  font-size: 1.5rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border: 2px solid black;
+}
+
+.button:hover {
+  color: #fff;
+  /* background-color: #0b5ed7; */
+  background-color: #428dfd;
+  /* border-color: #0a58ca; */
+}
